@@ -1,0 +1,6 @@
+extension for projection;
+
+extend behavior for Shop
+{
+  use action zzChangeStatus;
+}

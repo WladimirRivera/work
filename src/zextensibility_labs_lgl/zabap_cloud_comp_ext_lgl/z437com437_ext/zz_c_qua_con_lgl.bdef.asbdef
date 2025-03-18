@@ -1,0 +1,16 @@
+extension for projection;
+
+extend behavior for Shop
+{
+  use association ZZ_quality_ZAA { create; with draft; }
+}
+
+define behavior for z_C_qua_con_lgl alias ZZCqualityZAA
+
+{
+  use update;
+  use delete;
+  use action positiveCal;
+  use action negativeCal;
+  use association _Shop { with draft; }
+}

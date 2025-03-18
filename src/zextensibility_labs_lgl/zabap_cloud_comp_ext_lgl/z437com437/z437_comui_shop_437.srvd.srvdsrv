@@ -1,0 +1,5 @@
+@AbapCatalog.extensibility.extensible: true
+@ObjectModel.leadingEntity.name: 'Z437_COMC_ShopTP_437'
+define service Z437_COMUI_Shop_437 {
+  expose Z437_COMC_SHOPTP_437 as Shop;
+}

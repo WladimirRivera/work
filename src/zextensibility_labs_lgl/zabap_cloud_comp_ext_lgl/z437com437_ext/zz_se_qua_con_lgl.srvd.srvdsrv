@@ -1,0 +1,3 @@
+extend service Z437_COMUI_SHOP_437 with {
+  expose z_C_qua_con_lgl as zz_quality;
+}

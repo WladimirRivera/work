@@ -1,0 +1,5 @@
+CLASS zbp_ext_shop_lgl DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zlg_extr_shoptp_lgl.
+ENDCLASS.
+
+CLASS zbp_ext_shop_lgl IMPLEMENTATION.
+ENDCLASS.

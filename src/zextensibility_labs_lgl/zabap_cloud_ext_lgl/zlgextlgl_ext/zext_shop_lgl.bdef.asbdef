@@ -1,0 +1,14 @@
+extension using interface zlg_exti_shoptp_lgl
+implementation in class zbp_ext_shop_lgl unique;
+
+extend behavior for Shop
+{
+  field ( readonly ) zzstatuszaa, zzmoddatezaa;
+  action ( authorization : none ) zzChangeStatus result [1] $self;
+  validation zzValidateItemDisc on save { create; field zzitemdiscountzaa; }
+
+  extend draft determine action Prepare
+  { validation zzValidateItemDisc; }
+
+determination zzSetDefaultStatus on save {create; }
+}
