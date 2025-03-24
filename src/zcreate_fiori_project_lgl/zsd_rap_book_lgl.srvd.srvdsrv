@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition - RAP Book'
+define service Zsd_rap_book_lgl {
+  expose z_r_rap_book_lgl;
+}

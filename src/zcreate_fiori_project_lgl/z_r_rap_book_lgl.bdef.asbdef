@@ -1,0 +1,14 @@
+managed; // implementation in class zbp_r_rap_book_lgl unique;
+//strict ( 2 );
+
+define behavior for z_r_rap_book_lgl //alias <alias_name>
+persistent table zrap_book_lgl
+lock master
+//authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  field ( readonly ) TravelId, BookingId;
+}
